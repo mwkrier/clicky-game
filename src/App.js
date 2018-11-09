@@ -72,9 +72,8 @@ class App extends Component {
       shufflePic[randomIndex] = tempPic;
     }
     this.setState({
-      pic: this.shufflePic,
+      pic: shufflePic,
     });
-    return pic;
   }
 
   render() {
