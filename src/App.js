@@ -78,7 +78,7 @@ class App extends Component {
 
   render() {
     return (
-      <Wrapper>
+      <Wrapper id="wrapper">
         <Navigation
           score={this.state.score}
           highScore={this.state.highScore}
